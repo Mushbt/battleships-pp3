@@ -75,10 +75,10 @@ def print_ship(board):
                 if ship_fits(ship_length, row, column, direction):
                     if not check_overlap(board, row, column, direction, ship_length):
                         if direction == "H":
-                            for i in range(column, column, + ship_length):
+                            for i in range(column, column + ship_length):
                                 board[row][i] = "@"
                         else:
-                            for i in range(row, row, + ship_length):
+                            for i in range(row, row + ship_length):
                                 board[i][column] = "@"
                         break
             if board == P_BOARD:
@@ -87,10 +87,10 @@ def print_ship(board):
                 if ship_fits(ship_length, row, column, direction):
                     if not check_overlap(board, row, column, direction, ship_length):
                         if direction == "H":
-                            for i in range(column, column, + ship_length):
+                            for i in range(column, column + ship_length):
                                 board[row][i] = "@"
                         else:
-                            for i in range(row, row, + ship_length):
+                            for i in range(row, row + ship_length):
                                 board[i][column] = "@"
                         break
 
@@ -118,11 +118,11 @@ def check_overlap(board, row, column, direction, ship_length):
     on the board will overlap on other ships
     """
     if direction == "H":
-        for i in range(column, column, + ship_length):
+        for i in range(column, column + ship_length):
             if board[row][i] == "@":
                 return True
     else:
-        for i in range(row, row, + ship_length):
+        for i in range(row, row + ship_length):
             if board[i][column] == "@":
                 return True
     return False
@@ -247,6 +247,7 @@ def play_again():
             answer = input("Enter Y or N \n").upper()
 
 
-intro()
-start_game()
-play_again()
+if __name__ == "__main__":
+    intro()
+    start_game()
+    play_again()
