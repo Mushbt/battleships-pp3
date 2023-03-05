@@ -55,6 +55,41 @@ def print_board(board):
         print("%d|%s|" % (row_num, "|".join(row)))
         row_num += 1
 
+def print_ship(board):
+    """
+    The print ship function will automatically print the ships
+    on the board for both the player and computer while checking
+    the ships fit on the board and check for any overlapping
+    """
+    for ship_length in SHIP_LENGTHS:
+        while True:
+            if board == C_BOARD:
+                direction, row, column = random.choice(["H", "V"]), \
+                    random.randint(0, 7), random.randint(0, 7)
+                if ship_fits(ship_length, row, column, direction):
+                    if not check_overlap(board, row, column, direction, ship_length):
+                        if direction == "H":
+                            for i in range(column, column, + ship_length):
+                                board[row][i] = "@"
+                        else:
+                            for i in range(row, row, + ship_length):
+                                board[i][column] = "@"
+                        break
+            if board == P_BOARD:
+                direction, row, column = random.choice(["H", "V"]), \
+                    random.randint(0, 7), random.randint(0, 7)
+                if ship_fits(ship_length, row, column, direction):
+                    if not check_overlap(board, row, column, direction, ship_length):
+                        if direction == "H":
+                            for i in range(column, column, + ship_length):
+                                board[row][i] = "@"
+                        else:
+                            for i in range(row, row, + ship_length):
+                                board[i][column] = "@"
+                        break
+
+
+
 def ship_fits(SHIP_LENGTHS, row, column, direction):
     """
     The ship fits function checks if ships
