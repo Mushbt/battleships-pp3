@@ -149,3 +149,15 @@ def player_input(print_ship):
         except KeyError:
             print("Please enter a valid letter between A-H")
     return row, column
+
+def hit_count(board):
+    """
+    The hit count function will count the number of hits the player
+    and computer has taken
+    """
+    count = 0
+    for row in board:
+        for column in row:
+            if column == "X":
+                count += 1
+    return count
