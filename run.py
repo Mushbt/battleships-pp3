@@ -189,3 +189,30 @@ def p_c_turns(board):
         else:
             board[row][column] = "O"
             print("They hit empty waters!\n")
+
+def start_game():
+    """
+    Start game function
+    """
+    print_ship(C_BOARD)
+    print(P_BOARD)
+    print_ship(P_BOARD)
+    # Players turn
+    while True:
+        print("Guess the ship coordinates\n")
+        print_board(P_BOARD)
+        p_c_turns(P_BOARD)
+        break
+    if hit_count(P_BOARD) == 17:
+        print("You sunk all their ships! You win!")
+        break
+    # Computers turn
+    while True:
+        p_c_turns(C_BOARD)
+        break
+    if hit_count(C_BOARD) == 17:
+        print("They have sunk all your ships! You lose")
+        break
+
+
+
