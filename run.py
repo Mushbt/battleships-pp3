@@ -68,3 +68,18 @@ def ship_fits(SHIP_LENGTHS, row, column, direction):
             return False
         else:
             return True
+
+def check_overlap(board, row, column, direction, ship_length):
+    """
+    The check overlap function will check if any ships placed
+    on the board will overlap on other ships
+    """
+    if direction == "H":
+        for i in range(column, column, + ship_length):
+            if board[row][i] == "@":
+                return True
+    else:
+        for i in range(row, row, + ship_length):
+            if board[i][column] == "@":
+                return True
+    return False
