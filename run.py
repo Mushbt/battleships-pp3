@@ -139,27 +139,28 @@ def player_input(print_ship):
     ships are located whilst getting feedback for any
     wrong keys they have entered
     """
-    while True:
-        try:
-            row = input("Enter the row of the ship 1-8: \n")
-            if row in '12345678':
-                row = int(row) - 1
-                break
-            else:
-                raise ValueError
-        except ValueError:
-            print("Please enter a valid number between 1-8")
-    while True:
-        try:
-            column = input("Enter the column of the ship A-H: \n").upper()
-            if column not in 'ABCDEFGH':
-                print("Enter a valid letter between A-H")
-            else:
-                column = board_coordinates[column]
-                break
-        except KeyError:
-            print("Please enter a valid letter between A-H")
-    return row, column
+    if print_ship == True:
+        while True:
+            try:
+                row = input("Enter the row of the ship 1-8: \n")
+                if row in '12345678':
+                    row = int(row) - 1
+                    break
+                else:
+                    raise ValueError
+            except ValueError:
+                print("Please enter a valid number between 1-8")
+        while True:
+            try:
+                column = input("Enter the column of the ship A-H: \n").upper()
+                if column not in 'ABCDEFGH':
+                    print("Enter a valid letter between A-H")
+                else:
+                    column = board_coordinates[column]
+                    break
+            except KeyError:
+                print("Please enter a valid letter between A-H")
+        return row, column
 
 
 def hit_count(board):
