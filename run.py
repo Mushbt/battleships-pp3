@@ -139,28 +139,27 @@ def player_input(print_ship):
     ships are located whilst getting feedback for any
     wrong keys they have entered
     """
-    if print_ship == True:
-        while True:
-            try:
-                row = input("Enter the row of the ship 1-8: \n")
-                if row in '12345678':
-                    row = int(row) - 1
-                    break
-                else:
-                    raise ValueError
-            except ValueError:
-                print("Please enter a valid number between 1-8")
-        while True:
-            try:
-                column = input("Enter the column of the ship A-H: \n").upper()
-                if column not in 'ABCDEFGH':
-                    print("Enter a valid letter between A-H")
-                else:
-                    column = board_coordinates[column]
-                    break
-            except KeyError:
-                print("Please enter a valid letter between A-H")
-        return row, column
+    while True:
+        try:
+            row = input("Enter the row of the ship 1-8: \n")
+            if row in '12345678':
+                row = int(row) - 1
+                break
+            else:
+                raise ValueError
+        except ValueError:
+            print("Please enter a valid number between 1-8")
+    while True:
+        try:
+            column = input("Enter the column of the ship A-H: \n").upper()
+            if column not in 'ABCDEFGH':
+                print("Enter a valid letter between A-H")
+            else:
+                column = board_coordinates[column]
+                break
+        except KeyError:
+            print("Please enter a valid letter between A-H")
+    return row, column
 
 
 def hit_count(board):
@@ -184,6 +183,8 @@ def p_c_turns(board):
     """
     if board == P_BOARD:
         row, column = player_input(P_BOARD)
+        print(row)
+        print(column)
         if board[row][column] == "O":
             p_c_turns(board)
         elif board[row][column] == "X":
@@ -193,7 +194,7 @@ def p_c_turns(board):
             print("You hit a ship!\n")
         else:
             board[row][column] = "O"
-            print("You hit empty water!\n")
+            print("You hit empty waters\n")
     else:
         row, column = random.randint(0, 7), random.randint(0, 7)
         if board[row][column] == "O":
@@ -210,7 +211,7 @@ def start_game():
     Start game function
     """
     print_ship(C_BOARD)
-    print(P_BOARD)
+    print_board(P_BOARD)
     print_ship(P_BOARD)
     # Players turn
     while True:
