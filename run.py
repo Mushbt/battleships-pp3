@@ -205,14 +205,14 @@ def start_game():
         break
     if hit_count(P_BOARD) == 17:
         print("You sunk all their ships! You win!")
-        break
+
     # Computers turn
     while True:
         p_c_turns(C_BOARD)
         break
     if hit_count(C_BOARD) == 17:
         print("They have sunk all your ships! You lose")
-        break
+
 
 def play_again():
     """
@@ -235,3 +235,8 @@ def play_again():
             print(' ')
             print("Pleas enter Y or N")
             answer = input("Enter Y or N \n").upper()
+
+
+intro()
+start_game()
+play_again()
