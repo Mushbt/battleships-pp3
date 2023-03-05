@@ -21,6 +21,7 @@ board_coordinates = {
     'H': 7
 }
 
+
 # Game introduction
 def intro():
     print("Welcome to battleships!\n")
@@ -44,6 +45,7 @@ def intro():
     print("O - MISSED TARGET")
     print("X - HIT TARGET")
 
+
 def print_board(board):
     """
     The print board function prints out the game board
@@ -54,6 +56,7 @@ def print_board(board):
     for row in board:
         print("%d|%s|" % (row_num, "|".join(row)))
         row_num += 1
+
 
 def print_ship(board):
     """
@@ -90,6 +93,7 @@ def print_ship(board):
 
 
 
+
 def ship_fits(SHIP_LENGTHS, row, column, direction):
     """
     The ship fits function checks if ships
@@ -106,6 +110,7 @@ def ship_fits(SHIP_LENGTHS, row, column, direction):
         else:
             return True
 
+
 def check_overlap(board, row, column, direction, ship_length):
     """
     The check overlap function will check if any ships placed
@@ -120,6 +125,7 @@ def check_overlap(board, row, column, direction, ship_length):
             if board[i][column] == "@":
                 return True
     return False
+
 
 def player_input(print_ship):
     """
@@ -150,6 +156,7 @@ def player_input(print_ship):
             print("Please enter a valid letter between A-H")
     return row, column
 
+
 def hit_count(board):
     """
     The hit count function will count the number of hits the player
@@ -161,6 +168,7 @@ def hit_count(board):
             if column == "X":
                 count += 1
     return count
+
 
 def p_c_turns(board):
     """
@@ -189,6 +197,7 @@ def p_c_turns(board):
         else:
             board[row][column] = "O"
             print("They hit empty waters!\n")
+
 
 def start_game():
     """
