@@ -52,3 +52,19 @@ def print_board(board):
     for row in board:
         print("%d|%s|" % (row_num, "|".join(row)))
         row_num += 1
+
+def ship_fits(SHIP_LENGTHS, row, column, direction):
+    """
+    The ship fits function checks if ships
+    placed on the board will fit
+    """
+    if direction == "H":
+        if column + SHIP_LENGTHS > 8:
+            return False
+        else:
+            return True
+    else:
+        if row + SHIP_LENGTHS > 8:
+            return False
+        else:
+            return True
