@@ -214,5 +214,24 @@ def start_game():
         print("They have sunk all your ships! You lose")
         break
 
-
-
+def play_again():
+    """
+    The play again function will ask the player
+    if they want to play again after the game has ended
+    """
+    print("Would you like to play again?\n")
+    answer = input("Enter Y or N \n").upper()
+    print(' ')
+    while True:
+        if answer == "Y":
+            intro()
+        elif answer == "N":
+            print(' ')
+            print("Goodbye! See you next time!")
+            print(' ')
+            return False
+            intro()
+        else:
+            print(' ')
+            print("Pleas enter Y or N")
+            answer = input("Enter Y or N \n").upper()
