@@ -161,3 +161,31 @@ def hit_count(board):
             if column == "X":
                 count += 1
     return count
+
+def p_c_turns(board):
+    """
+    The p c turns function will go through the player
+    and the computers turns while giving feedback to player
+    with what happened durint their turn aswell as the computers turn
+    """
+    if board == P_BOARD:
+        row, column = player_input(P_BOARD)
+        if board[row][column] == "O":
+            p_c_turns(board)
+        elif board[row][column] == "X":
+            p_c_turns(board)
+        elif C_BOARD[row][column] == "@":
+            board[row][column] = "X"
+            print("You hit a ship!\n")
+        else:
+            board[row][column] = "O"
+            print("You hit empty water!\n")
+    else:
+        row, column = random.randint(0, 7), random.randint(0, 7)
+        if board[row][column] == "O":
+            p_c_turns(board)
+        elif board[row][column] == "X":
+            print("Your ship was hit!\n")
+        else:
+            board[row][column] = "O"
+            print("They hit empty waters!\n")
