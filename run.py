@@ -95,8 +95,6 @@ def print_ship(board):
                         break
 
 
-
-
 def ship_fits(SHIP_LENGTHS, row, column, direction):
     """
     The ship fits function checks if ships
