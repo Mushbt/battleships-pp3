@@ -120,3 +120,32 @@ def check_overlap(board, row, column, direction, ship_length):
             if board[i][column] == "@":
                 return True
     return False
+
+def player_input(print_ship):
+    """
+    The player input function allows the player to 
+    input the row and column they think the computer
+    ships are located whilst getting feedback for any
+    wrong keys they have entered
+    """
+    while True:
+        try:
+            row = input("Enter the row of the ship 1-8: \n")
+            if row in '12345678':
+                row = int(row) - 1
+                break
+            else:
+                raise ValueError
+        except ValueError:
+            print("Please enter a valid number between 1-8")
+    while True:
+        try:
+            column = input("Enter the column of the ship A-H: \n").upper()
+            if column not in 'ABCDEFGH':
+                print("Enter a valid letter between A-H")
+            else:
+                column = board_coordinates[column]
+                break
+        except KeyError:
+            print("Please enter a valid letter between A-H")
+    return row, column
