@@ -32,4 +32,8 @@ def intro():
     print("CRUISER - 3 BOARD POSITIONS")
     print("BATTLESHIP -  4 BOARD POSITIONS")
     print("CARRIER - 5 BOARD POSITIONS")
-    
+
+    print("The following is the game legend:")
+    print("@ - SHIP")
+    print("O - MISSED TARGET")
+    print("X - HIT TARGET")
