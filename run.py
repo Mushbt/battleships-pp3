@@ -35,6 +35,7 @@ ships\n")
 ships\n")
     print("When this has been achieved bu either you or the computer, the game\
 will be over")
+
     # Ships and sizes
     print("You will have the following ships in your fleet:\n")
     print("DESTROYER - 2 BOARD POSITIONS")
@@ -42,6 +43,7 @@ will be over")
     print("CRUISER - 3 BOARD POSITIONS")
     print("BATTLESHIP -  4 BOARD POSITIONS")
     print("CARRIER - 5 BOARD POSITIONS")
+
     # Game legend
     print("The following is the game legend:")
     print("@ - SHIP")
@@ -73,7 +75,8 @@ def print_ship(board):
                 direction, row, column = random.choice(["H", "V"]), \
                     random.randint(0, 7), random.randint(0, 7)
                 if ship_fits(ship_length, row, column, direction):
-                    if not check_overlap(board, row, column, direction, ship_length):
+                    if not check_overlap(board, row, column, direction,
+                                         ship_length):
                         if direction == "H":
                             for i in range(column, column + ship_length):
                                 board[row][i] = "@"
@@ -85,7 +88,8 @@ def print_ship(board):
                 direction, row, column = random.choice(["H", "V"]), \
                     random.randint(0, 7), random.randint(0, 7)
                 if ship_fits(ship_length, row, column, direction):
-                    if not check_overlap(board, row, column, direction, ship_length):
+                    if not check_overlap(board, row, column, direction,
+                                         ship_length):
                         if direction == "H":
                             for i in range(column, column + ship_length):
                                 board[row][i] = "@"
