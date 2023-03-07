@@ -183,8 +183,6 @@ def p_c_turns(board):
     """
     if board == P_BOARD:
         row, column = player_input(P_BOARD)
-        print(row)
-        print(column)
         if board[row][column] == "O":
             p_c_turns(board)
         elif board[row][column] == "X":
