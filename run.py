@@ -218,16 +218,16 @@ def start_game():
         print("Guess the ship coordinates\n")
         print_board(P_BOARD)
         p_c_turns(P_BOARD)
-        break
-    if hit_count(P_BOARD) == 17:
-        print("You sunk all their ships! You win!")
+        if hit_count(P_BOARD) == 17:
+            print("You sunk all their ships! You win!")
+            break
 
     # Computers turn
-    while True:
         p_c_turns(C_BOARD)
-        break
-    if hit_count(C_BOARD) == 17:
-        print("They have sunk all your ships! You lose")
+        print_board(C_BOARD)
+        if hit_count(C_BOARD) == 17:
+            print("They have sunk all your ships! You lose")
+            break
 
 
 def play_again():
