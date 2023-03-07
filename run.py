@@ -198,10 +198,13 @@ def p_c_turns(board):
         if board[row][column] == "O":
             p_c_turns(board)
         elif board[row][column] == "X":
-            print("Your ship was hit!\n")
+            p_c_turns(board)
+        elif P_BOARD[row][column] == "@":
+            board[row][column] = "X"
+            print("You ship was hit!")
         else:
             board[row][column] = "O"
-            print("They hit empty waters!\n")
+            print("They hit empty water")
 
 
 def start_game():
