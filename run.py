@@ -181,8 +181,8 @@ def p_c_turns(board):
     and the computers turns while giving feedback to player
     with what happened durint their turn aswell as the computers turn
     """
-    if board == P_BOARD:
-        row, column = player_input(P_BOARD)
+    if board == C_BOARD:
+        row, column = player_input(C_BOARD)
         if board[row][column] == "O":
             p_c_turns(board)
         elif board[row][column] == "X":
