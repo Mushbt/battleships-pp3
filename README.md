@@ -16,7 +16,9 @@ The live link can be found here - [Battleships](Enter game link here)
 
 ## Table of Contents
 * [How to Play](#How-To-Play)
-* [Scope](#Scope)
+* [Features](#Features)
+ * [Existing Features](#Existing-Features)
+ * [Future Features](#Future-Features)
 * [Design](#Design)
 * [Technologies]
 * [Testing](#Testing)
@@ -29,3 +31,7 @@ The live link can be found here - [Battleships](Enter game link here)
 - When all ships have been placed, the game will begin.
 - The player must try and guess where the computers ships are located using coordinates.
 - If the player can sink all the computers ships before theirs are sunk, they will win the game.
+
+[Back to top](<#Table of Contents>)
+
+## Features
