@@ -24,9 +24,19 @@ board_coordinates = {
 }
 
 
+def print_fast(str):
+    """
+    Creates a fast typing effect
+    """
+    for letter in str:
+        sys.stdout.write(letter)
+        sys.stdout.flush()
+        time.sleep(0.05)
+
+
 # Game introduction
 def intro():
-    print("""\
+    print_fast("""\
     \u001B[31m
   ____        _   _   _           _     _           
  |  _ \      | | | | | |         | |   (_)
