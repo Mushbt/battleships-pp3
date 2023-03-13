@@ -1,31 +1,22 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Battleships
 
-Welcome Mushbt,
+Battleships is a Python terminal game which runs on Heroku. It is based on the popular strategy type guessing game [Battleships](https://en.wikipedia.org/wiki/Battleship_(game)).
+Players will play against the computer, and the game aim is to guess where the computer has placed its ships on the 8x8 board/grid and try and sink them. The computer will also be trying to do the same. Players and the computer will have 5 ships each which consists of the following:
+- Destroyer (Takes up 2 board positions)
+- Submarine (Takes up 3 board positions)
+- Cruiser (Takes up 3 board positions)
+- Battleship (Takes up 4 board positions)
+- Carrier (Takes up 5 board positions)
+Players will choose where to place their ships whilst the computers ships will be located randomly. Players will get to choose if they want their ships positioned Horizontally or Vertically. They will then decide where to place their ships using coordinates on the side of the board.
+Once the player or the computer sink the opponents ships, the game will end.
 
-This is the Code Institute student template for deploying your third portfolio project, the Python command-line project. The last update to this file was: **August 17, 2021**
+The live link can be found here - [Battleships](Enter game link here)
 
-## Reminders
+![readme hero image](add hero image here)
 
-* Your code must be placed in the `run.py` file
-* Your dependencies must be placed in the `requirements.txt` file
-* Do not edit any of the other files or your code may not deploy properly
+## How To Play
 
-## Creating the Heroku app
-
-When you create the app, you will need to add two buildpacks from the _Settings_ tab. The ordering is as follows:
-
-1. `heroku/python`
-2. `heroku/nodejs`
-
-You must then create a _Config Var_ called `PORT`. Set this to `8000`
-
-If you have credentials, such as in the Love Sandwiches project, you must create another _Config Var_ called `CREDS` and paste the JSON into the value field.
-
-Connect your GitHub repository and deploy as normal.
-
-## Constraints
-
-The deployment terminal is set to 80 columns by 24 rows. That means that each line of text needs to be 80 characters or less otherwise it will be wrapped onto a second line.
-
------
-Happy coding!
+- 5 ships will be placed on each board automatically.
+- When all ships have been placed, the game will begin.
+- The player must try and guess where the computers ships are located using coordinates.
+- If the player can sink all the computers ships before theirs are sunk, they will win the game.
