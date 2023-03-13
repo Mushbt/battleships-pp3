@@ -233,6 +233,17 @@ def start_game():
             print("You sunk all their ships! You win!")
             break
 
+        # Computers turn
+        print('Player board')
+        # Carry out the computers turn, targeting the players board
+        p_c_turns(P_BOARD)
+        # Show the players board
+        print_board(P_BOARD)
+
+        if hit_count(P_BOARD) == 17:
+            print("They have sunk all your ships! You lose")
+            break
+
 
 def play_again():
     """
