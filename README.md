@@ -14,6 +14,15 @@ The live link can be found here - [Battleships](Enter game link here)
 
 ![readme hero image](add hero image here)
 
+## Table of Contents
+* [How to Play](#How-To-Play)
+* [Scope](#Scope)
+* [Design](#Design)
+* [Technologies]
+* [Testing](#Testing)
+* [Deployment](#Deployment)
+* [Credits And Acknowledgements](#credits-and-acknowledgements)
+
 ## How To Play
 
 - 5 ships will be placed on each board automatically.
