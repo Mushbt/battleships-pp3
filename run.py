@@ -61,6 +61,7 @@ def intro():
 
     print_slow("Welcome to battleships!\n")
     time.sleep(1)
+    print(' ')
     print_slow("Battleships is a strategy type guessing game\n")
     print_slow("It is played on a ruled grid (In this case 8x8)\n")
     print_slow("You and the computer will have 5 ships each with different \
@@ -73,6 +74,7 @@ computers ships\n")
     print_slow("When this has been achieved by either you or the computer, \
 the game will be over\n")
     time.sleep(3)
+    print(' ')
     # Ships and sizes
     print_slow("You will have the following ships in your fleet:\n")
     print_slow("\u001B[32mDESTROYER \u001B[0m- 2 BOARD POSITIONS\n")
@@ -81,12 +83,14 @@ the game will be over\n")
     print_slow("\u001B[35mBATTLESHIP \u001B[0m- 4 BOARD POSITIONS\n")
     print_slow("\u001B[31mCARRIER \u001B[0m- 5 BOARD POSITIONS\n")
     time.sleep(3)
+    print(' ')
     # Game legend
     print_slow("The following is the game legend:\n")
     print_slow("\u001B[34m@ \u001B[0m- SHIP\n")
     print_slow("\u001B[31mO \u001B[0m- MISSED TARGET\n")
     print_slow("\u001B[32mX \u001B[0m- HIT TARGET\n")
     time.sleep(3)
+    print(' ')
 
 
 def print_board(board):
@@ -260,7 +264,7 @@ def start_game():
     print_ship(C_BOARD)
 
     # Display the players board
-    print_slow('Player board')
+    print_slow('Player board\n')
     print_board(P_BOARD)
     # Players turn
     while True:
@@ -268,17 +272,17 @@ def start_game():
         print_slow("Guess the ship coordinates\n")
 
         # Show the computers current board
-        print_slow('Computers board')
+        print_slow('Computers board\n')
         print_board(C_BOARD)
         # Carry out the players turn, targeting the computers board
         p_c_turns(C_BOARD)
 
         if hit_count(C_BOARD) == 17:
-            print_slow("You sunk all their ships! You win!")
+            print_slow("You sunk all their ships! You win!\n")
             break
 
         # Computers turn
-        print('Player board')
+        print('Player board\n')
         # Carry out the computers turn, targeting the players board
         p_c_turns(P_BOARD)
         # Show the players board
@@ -302,13 +306,13 @@ def play_again():
             intro()
         elif answer == "N":
             print(' ')
-            print_slow("Goodbye! See you next time!")
+            print_slow("Goodbye! See you next time!\n")
             print(' ')
             return False
             intro()
         else:
             print(' ')
-            print_slow("Please enter Y or N")
+            print_slow("Please enter Y or N\n")
             answer = input("Enter Y or N \n").upper()
 
 
