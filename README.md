@@ -87,6 +87,11 @@ The live link can be found here - [Battleships](Enter game link here)
 ![Y axis feedback](insert image here of y axis feedback if incorrect)
 ![X axis request](insert image here of x axis request)
 ![X axis feedback](insert image here of x axis feedback if incorrect)
+![Player hit image](insert player hit image here)
+![Player miss image](insert player miss image here)
+![Computer hit image](insert computer hit image here)
+![computer miss image](insert computer miss image here)
+![Game end image](insert game end image here)
 
 [Back to top](<#Table of Contents>)
 
