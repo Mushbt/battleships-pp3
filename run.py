@@ -236,10 +236,10 @@ def p_c_turns(board):
             p_c_turns(board)
         elif C_BOARD[row][column] == "@":
             board[row][column] = "X"
-            print_slow("You hit a ship!\n")
+            print_slow("\u001B[32mYou hit a ship!\n\u001B[0m")
         else:
             board[row][column] = "O"
-            print_slow("You hit empty waters\n")
+            print_slow("\u001B[34mYou hit empty waters\n\u001B[0m")
     else:
         row, column = random.randint(0, 7), random.randint(0, 7)
         if board[row][column] == "O":
@@ -248,10 +248,10 @@ def p_c_turns(board):
             p_c_turns(board)
         elif P_BOARD[row][column] == "@":
             board[row][column] = "X"
-            print_slow("Your ship was hit!")
+            print_slow("\u001B[31mYour ship was hit!\n\u001B[0m")
         else:
             board[row][column] = "O"
-            print_slow("They hit empty water")
+            print_slow("\u001B[34mThey hit empty water\n\u001B[0m")
 
 
 def start_game():
