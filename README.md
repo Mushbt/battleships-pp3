@@ -73,3 +73,19 @@ The live link can be found here - [Battleships](Enter game link here)
 
 [Back to top](<#Table of Contents>)
 
+- Player feedback
+  - Feedback is constantly displayed to the player during the game
+  - The player is requested to input coordinates whenever they have their turn. They are asked for the y axis first, which are numbers.
+  If they do not input a number between 1 and 8, they get asked to input a valid number between 1 and 8. Once done right, they are asked to input coordinates
+  for the x axis which are letters. If they do not input a letter between A and H, they are asked to input a valid letter between A and H. The player takes their turn once
+  the coordinates are input correctly. The computer takes its turn directly after.
+  - Once the player and computer have taken their turns, feedback is given to the player. The feedback is telling the player if they hit or missed the computers ship. They
+  also get feedback telling them if the computer has hit or missed their ship.
+
+![Y axis request](insert image here of y axis request)
+![Y axis feedback](insert image here of y axis feedback if incorrect)
+![X axis request](insert image here of x axis request)
+![X axis feedback](insert image here of x axis feedback if incorrect)
+
+[Back to top](<#Table of Contents>)
+
