@@ -60,6 +60,7 @@ def intro():
 """)
 
     print_slow("Welcome to battleships!\n")
+    time.sleep(1)
     print_slow("Battleships is a strategy type guessing game\n")
     print_slow("It is played on a ruled grid (In this case 8x8)\n")
     print_slow("You and the computer will have 5 ships each with different \
