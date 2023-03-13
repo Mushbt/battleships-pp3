@@ -211,37 +211,15 @@ def start_game():
     """
     Start game function
     """
-    print('COMP 1')
-    print_board(C_BOARD)
+    # Add the ships to each board
+    print_ship(P_BOARD)
     print_ship(C_BOARD)
 
-    print('PLAYER 1')
+    # Display the players board
+    print('Player board')
     print_board(P_BOARD)
-
-    print_ship(P_BOARD)
     # Players turn
     while True:
-        print('COMP 1')
-        print_board(C_BOARD)
-
-        print('PLAYER 1')
-        print_board(P_BOARD)
-
-        print("Guess the ship coordinates\n")
-        print('PLAYER')
-        print_board(P_BOARD)
-        p_c_turns(P_BOARD)
-        if hit_count(P_BOARD) == 17:
-            print("You sunk all their ships! You win!")
-            break
-
-    # Computers turn
-        print('COMP')
-        p_c_turns(C_BOARD)
-        print_board(C_BOARD)
-        if hit_count(C_BOARD) == 17:
-            print("They have sunk all your ships! You lose")
-            break
 
 
 def play_again():
