@@ -192,17 +192,17 @@ def player_input(print_ship):
             else:
                 raise ValueError
         except ValueError:
-            print("Please enter a valid number between 1-8")
+            print_slow("Please enter a valid number between 1-8\n")
     while True:
         try:
             column = input("Enter the column of the ship A-H: \n").upper()
             if column not in 'ABCDEFGH':
-                print("Enter a valid letter between A-H")
+                print_slow("Enter a valid letter between A-H\n")
             else:
                 column = board_coordinates[column]
                 break
         except KeyError:
-            print("Please enter a valid letter between A-H")
+            print_slow("Please enter a valid letter between A-H\n")
     return row, column
 
 
