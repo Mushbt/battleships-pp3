@@ -220,6 +220,18 @@ def start_game():
     print_board(P_BOARD)
     # Players turn
     while True:
+        # Players turn
+        print("Guess the ship coordinates\n")
+
+        # Show the computers current board
+        print('Computers board')
+        print_board(C_BOARD)
+        # Carry out the players turn, targeting the computers board
+        p_c_turns(C_BOARD)
+
+        if hit_count(C_BOARD) == 17:
+            print("You sunk all their ships! You win!")
+            break
 
 
 def play_again():
