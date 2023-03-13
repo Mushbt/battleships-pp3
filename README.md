@@ -20,7 +20,7 @@ The live link can be found here - [Battleships](Enter game link here)
  * [Existing Features](#Existing-Features)
  * [Future Features](#Future-Features)
 * [Design](#Design)
-* [Technologies]
+* [Technologies](#Technologies)
 * [Testing](#Testing)
 * [Deployment](#Deployment)
 * [Credits And Acknowledgements](#credits-and-acknowledgements)
@@ -35,3 +35,11 @@ The live link can be found here - [Battleships](Enter game link here)
 [Back to top](<#Table of Contents>)
 
 ## Features
+# Existing Features
+- The Introduction
+  - When a new game is started, a Battleships logo is printed.
+  - After the logo is printed, a simple welcome message which reads "Welcome to Battleships!" follows.
+  - User will also get information on what the Battleships game is and instructions on how to play.
+  - User will also get information on all the ship sizes and names that will be used in the game.
+  - User will also get a game legend which tells them what the symbols in the game will be.
+
