@@ -42,4 +42,11 @@ The live link can be found here - [Battleships](Enter game link here)
   - User will also get information on what the Battleships game is and instructions on how to play.
   - User will also get information on all the ship sizes and names that will be used in the game.
   - User will also get a game legend which tells them what the symbols in the game will be.
+- Players board
+  - The players board will have letters and numbers on the x and y axis respectively. These will be the game coordinates for the game.
+  - The players ships will be visible. Ships have been randomly placed.
+- Computers board
+  - The computers board will have letter and numbers on the x and y axis respectively. There will be the game coordinates for the game.
+  - The computers ships will not be visible. Reason for this is because the player will need to guess where the ships are located. Ships have been randomly placed.
+  
 
