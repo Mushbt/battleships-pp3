@@ -86,9 +86,9 @@ the game will be over\n")
     print(' ')
     # Game legend
     print_slow("The following is the game legend:\n")
-    print_slow("\u001B[34m@ \u001B[0m- SHIP\n")
-    print_slow("\u001B[31mO \u001B[0m- MISSED TARGET\n")
-    print_slow("\u001B[32mX \u001B[0m- HIT TARGET\n")
+    print_slow("@ - SHIP\n")
+    print_slow("O - MISSED TARGET\n")
+    print_slow("X - HIT TARGET\n")
     time.sleep(3)
     print(' ')
 
