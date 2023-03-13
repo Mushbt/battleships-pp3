@@ -139,7 +139,7 @@ def check_overlap(board, row, column, direction, ship_length):
 
 def player_input(print_ship):
     """
-    The player input function allows the player to 
+    The player input function allows the player to
     input the row and column they think the computer
     ships are located whilst getting feedback for any
     wrong keys they have entered
@@ -184,7 +184,7 @@ def p_c_turns(board):
     """
     The p c turns function will go through the player
     and the computers turns while giving feedback to player
-    with what happened durint their turn aswell as the computers turn
+    with what happened during their turn aswell as the computers turn
     """
     if board == C_BOARD:
         row, column = player_input(C_BOARD)
@@ -206,7 +206,7 @@ def p_c_turns(board):
             p_c_turns(board)
         elif P_BOARD[row][column] == "@":
             board[row][column] = "X"
-            print("You ship was hit!")
+            print("Your ship was hit!")
         else:
             board[row][column] = "O"
             print("They hit empty water")
