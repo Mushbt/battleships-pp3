@@ -90,3 +90,11 @@ The live link can be found here - [Battleships](Enter game link here)
 
 [Back to top](<#Table of Contents>)
 
+- Play again
+  - When the player or the computer has sunk the opponents ship, the game will end.
+  - Once game has ended, the player will be asked if they want to play again. Player will need to input Y for yes or N for no.
+  - If the player decides to play again, the game will reload from the begining.
+  - If the player decides against playing again, they will get a goodbye message.
+
+![Play again image](insert play again image here)
+![goodbye message](insert goodbye message here)
