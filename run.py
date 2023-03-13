@@ -213,6 +213,7 @@ def start_game():
     """
     print('COMP 1')
     print_board(C_BOARD)
+    print_ship(C_BOARD)
 
     print('PLAYER 1')
     print_board(P_BOARD)
