@@ -59,7 +59,12 @@ def print_board(board):
     print(' ***************')
     row_num = 1
     for row in board:
-        print("%d|%s|" % (row_num, "|".join(row)))
+        row_str = "%d|%s|" % (row_num, "|".join(row))
+
+        if board is C_BOARD:
+            row_str = row_str.replace('@', ' ')
+
+        print(row_str)
         row_num += 1
 
 
