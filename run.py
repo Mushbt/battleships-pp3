@@ -233,10 +233,10 @@ def p_c_turns(board):
             p_c_turns(board)
         elif C_BOARD[row][column] == "@":
             board[row][column] = "X"
-            print("You hit a ship!\n")
+            print_slow("You hit a ship!\n")
         else:
             board[row][column] = "O"
-            print("You hit empty waters\n")
+            print_slow("You hit empty waters\n")
     else:
         row, column = random.randint(0, 7), random.randint(0, 7)
         if board[row][column] == "O":
@@ -245,10 +245,10 @@ def p_c_turns(board):
             p_c_turns(board)
         elif P_BOARD[row][column] == "@":
             board[row][column] = "X"
-            print("Your ship was hit!")
+            print_slow("Your ship was hit!")
         else:
             board[row][column] = "O"
-            print("They hit empty water")
+            print_slow("They hit empty water")
 
 
 def start_game():
@@ -260,21 +260,21 @@ def start_game():
     print_ship(C_BOARD)
 
     # Display the players board
-    print('Player board')
+    print_slow('Player board')
     print_board(P_BOARD)
     # Players turn
     while True:
         # Players turn
-        print("Guess the ship coordinates\n")
+        print_slow("Guess the ship coordinates\n")
 
         # Show the computers current board
-        print('Computers board')
+        print_slow('Computers board')
         print_board(C_BOARD)
         # Carry out the players turn, targeting the computers board
         p_c_turns(C_BOARD)
 
         if hit_count(C_BOARD) == 17:
-            print("You sunk all their ships! You win!")
+            print_slow("You sunk all their ships! You win!")
             break
 
         # Computers turn
@@ -285,7 +285,7 @@ def start_game():
         print_board(P_BOARD)
 
         if hit_count(P_BOARD) == 17:
-            print("They have sunk all your ships! You lose")
+            print_slow("They have sunk all your ships! You lose")
             break
 
 
@@ -294,7 +294,7 @@ def play_again():
     The play again function will ask the player
     if they want to play again after the game has ended
     """
-    print("Would you like to play again?\n")
+    print_slow("Would you like to play again?\n")
     answer = input("Enter Y or N \n").upper()
     print(' ')
     while True:
@@ -302,13 +302,13 @@ def play_again():
             intro()
         elif answer == "N":
             print(' ')
-            print("Goodbye! See you next time!")
+            print_slow("Goodbye! See you next time!")
             print(' ')
             return False
             intro()
         else:
             print(' ')
-            print("Please enter Y or N")
+            print_slow("Please enter Y or N")
             answer = input("Enter Y or N \n").upper()
 
 
