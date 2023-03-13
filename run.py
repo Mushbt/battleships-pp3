@@ -58,31 +58,32 @@ def intro():
                                          |_|
 \u001b[0m
 """)
-    print("Welcome to battleships!\n")
-    print("Battleships is a strategy type guessing game\n")
-    print("It is played on a ruled grid (In this case 8x8)\n")
-    print("You and the computer will have 5 ships each with different sizes\n")
-    print("The location of the ships will be concealed from each other\n")
-    print("You will take turns calling coordinates trying to sink eachothers \
-ships\n")
-    print("The objective of the game is to try and sink all the computers \
-ships\n")
-    print("When this has been achieved by either you or the computer, the \
-game will be over\n")
+    print_slow("Welcome to battleships!\n")
+    print_slow("Battleships is a strategy type guessing game\n")
+    print_slow("It is played on a ruled grid (In this case 8x8)\n")
+    print_slow("You and the computer will have 5 ships each with different \
+sizes\n")
+    print_slow("The location of the ships will be concealed from each other\n")
+    print_slow("You will take turns calling coordinates trying to sink \
+eachothers ships\n")
+    print_slow("The objective of the game is to try and sink all the \
+    computers ships\n")
+    print_slow("When this has been achieved by either you or the computer, \
+    the game will be over\n")
 
     # Ships and sizes
-    print("You will have the following ships in your fleet:\n")
-    print("\u001B[32mDESTROYER \u001B[0m- 2 BOARD POSITIONS")
-    print("\u001B[33mSUBMARINE \u001B[0m- 3 BOARD POSITIONS")
-    print("\u001B[34mCRUISER \u001B[0m- 3 BOARD POSITIONS")
-    print("\u001B[35mBATTLESHIP \u001B[0m- 4 BOARD POSITIONS")
-    print("\u001B[31mCARRIER \u001B[0m- 5 BOARD POSITIONS\n")
+    print_slow("You will have the following ships in your fleet:\n")
+    print_slow("\u001B[32mDESTROYER \u001B[0m- 2 BOARD POSITIONS")
+    print_slow("\u001B[33mSUBMARINE \u001B[0m- 3 BOARD POSITIONS")
+    print_slow("\u001B[34mCRUISER \u001B[0m- 3 BOARD POSITIONS")
+    print_slow("\u001B[35mBATTLESHIP \u001B[0m- 4 BOARD POSITIONS")
+    print_slow("\u001B[31mCARRIER \u001B[0m- 5 BOARD POSITIONS\n")
 
     # Game legend
-    print("The following is the game legend:\n")
-    print("\u001B[34m@ \u001B[0m- SHIP")
-    print("\u001B[31mO \u001B[0m- MISSED TARGET")
-    print("\u001B[32mX \u001B[0m- HIT TARGET\n")
+    print_slow("The following is the game legend:\n")
+    print_slow("\u001B[34m@ \u001B[0m- SHIP")
+    print_slow("\u001B[31mO \u001B[0m- MISSED TARGET")
+    print_slow("\u001B[32mX \u001B[0m- HIT TARGET\n")
 
 
 def print_board(board):
