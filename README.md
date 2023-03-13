@@ -56,4 +56,14 @@ The live link can be found here - [Battleships](Enter game link here)
   - The computers board will have letter and numbers on the x and y axis respectively. There will be the game coordinates for the game.
   - The computers ships will not be visible. Reason for this is because the player will need to guess where the ships are located. Ships have been randomly placed.
 
+![Players board](Insert players board image here)
+![Computers board](Insert computers board image here)
+
+- Legend Display
+  - Ships that have not been hit on the players board are displayed as a "@"
+  - Ships that have been hit on both the players and computers boards are displayed as a "X"
+  - Missed hits are displayed as a "O" on both the players and computers board
+
+![Players board during game](Insert players board image here during gameplay)
+![Computers board during game](Insert computers board image here during gameplay)
 
