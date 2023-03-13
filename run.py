@@ -58,9 +58,9 @@ game will be over\n")
 
     # Game legend
     print("The following is the game legend:\n")
-    print("@ - SHIP")
-    print("O - MISSED TARGET")
-    print("X - HIT TARGET\n")
+    print("\u001B[34m@ \u001B[0m- SHIP")
+    print("\u001B[31mO \u001B[0m- MISSED TARGET")
+    print("\u001B[32mX \u001B[0m- HIT TARGET\n")
 
 
 def print_board(board):
