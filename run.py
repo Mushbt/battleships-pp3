@@ -45,8 +45,8 @@ def intro():
 ships\n")
     print("The objective of the game is to try and sink all the computers \
 ships\n")
-    print("When this has been achieved bu either you or the computer, the game\
-will be over")
+    print("When this has been achieved bu either you or the computer, the \
+game will be over\n")
 
     # Ships and sizes
     print("You will have the following ships in your fleet:\n")
@@ -54,13 +54,13 @@ will be over")
     print("\u001B[33mSUBMARINE \u001B[0m- 3 BOARD POSITIONS")
     print("\u001B[34mCRUISER \u001B[0m- 3 BOARD POSITIONS")
     print("\u001B[35mBATTLESHIP \u001B[0m- 3 BOARD POSITIONS")
-    print("\u001B[31mCARRIER \u001B[0m- 3 BOARD POSITIONS")
+    print("\u001B[31mCARRIER \u001B[0m- 3 BOARD POSITIONS\n")
 
     # Game legend
-    print("The following is the game legend:")
+    print("The following is the game legend:\n")
     print("@ - SHIP")
     print("O - MISSED TARGET")
-    print("X - HIT TARGET")
+    print("X - HIT TARGET\n")
 
 
 def print_board(board):
