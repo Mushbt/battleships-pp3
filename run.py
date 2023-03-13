@@ -282,7 +282,7 @@ def play_again():
             intro()
         else:
             print(' ')
-            print("Pleas enter Y or N")
+            print("Please enter Y or N")
             answer = input("Enter Y or N \n").upper()
 
 
