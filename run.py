@@ -34,6 +34,16 @@ def print_fast(str):
         time.sleep(0.05)
 
 
+def print_slow(str):
+    """
+    Creates a slow typing effect
+    """
+    for letter in str:
+        sys.stdout.write(letter)
+        sys.stdout.flush()
+        time.sleep(0.1)
+
+
 # Game introduction
 def intro():
     print_fast("""\
