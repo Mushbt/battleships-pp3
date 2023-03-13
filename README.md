@@ -103,3 +103,16 @@ The live link can be found here - [Battleships](Enter game link here)
 
 ![Play again image](insert play again image here)
 ![goodbye message](insert goodbye message here)
+
+[Back to top](<#Table of Contents>)
+
+# Future Features
+- In the future, I would like to add the following features
+  - Add a username input which would ask the player to create a username for the game
+  - Add a highscore table which would go hand in hand witht he username input feature. The scoreboard can be used for how many hits it took to win the game.
+  - Add difficulty levels that the player can choose from.
+  - Allow the player to position their ships.
+  - Allow the player to choose the size of the grid.
+
+[Back to top](<#Table of Contents>)
+
