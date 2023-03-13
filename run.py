@@ -24,7 +24,8 @@ board_coordinates = {
 
 # Game introduction
 def intro():
-    print("""
+    print("""\
+    \u001B[31m
   ____        _   _   _           _     _           
  |  _ \      | | | | | |         | |   (_)
  | |_) | __ _| |_| |_| | ___  ___| |__  _ _ __  ___ 
@@ -33,6 +34,7 @@ def intro():
  |____/ \__,_|\__|\__|_|\___||___/_| |_|_| .__/|___/
                                          | |
                                          |_|
+\u001b[0m
 """)
     print("Welcome to battleships!\n")
     print("Battleships is a strategy type guessing game\n")
@@ -48,11 +50,11 @@ will be over")
 
     # Ships and sizes
     print("You will have the following ships in your fleet:\n")
-    print("DESTROYER - 2 BOARD POSITIONS")
-    print("SUBMARINE - 3 BOARD POSITIONS")
-    print("CRUISER - 3 BOARD POSITIONS")
-    print("BATTLESHIP -  4 BOARD POSITIONS")
-    print("CARRIER - 5 BOARD POSITIONS")
+    print("\u001B[32mDESTROYER \u001B[0m- 2 BOARD POSITIONS")
+    print("\u001B[33mSUBMARINE \u001B[0m- 3 BOARD POSITIONS")
+    print("\u001B[34mCRUISER \u001B[0m- 3 BOARD POSITIONS")
+    print("\u001B[35mBATTLESHIP \u001B[0m- 3 BOARD POSITIONS")
+    print("\u001B[31mCARRIER \u001B[0m- 3 BOARD POSITIONS")
 
     # Game legend
     print("The following is the game legend:")
