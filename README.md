@@ -81,6 +81,7 @@ The live link can be found here - [Battleships](Enter game link here)
   the coordinates are input correctly. The computer takes its turn directly after.
   - Once the player and computer have taken their turns, feedback is given to the player. The feedback is telling the player if they hit or missed the computers ship. They
   also get feedback telling them if the computer has hit or missed their ship.
+  - Player will also get feedback once the game has ended. The feedback will be telling the player they have either one or lost.
 
 ![Y axis request](insert image here of y axis request)
 ![Y axis feedback](insert image here of y axis feedback if incorrect)
