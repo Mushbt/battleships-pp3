@@ -49,6 +49,8 @@ The live link can be found here - [Battleships](Enter game link here)
 ![Ship sizes and names](Insert ship info image here)
 ![Legend](Insert Legend image here)
 
+[Back to top](<#Table of Contents>)
+
 - Players board
   - The players board will have letters and numbers on the x and y axis respectively. These will be the game coordinates for the game.
   - The players ships will be visible. Ships have been randomly placed.
@@ -59,6 +61,8 @@ The live link can be found here - [Battleships](Enter game link here)
 ![Players board](Insert players board image here)
 ![Computers board](Insert computers board image here)
 
+[Back to top](<#Table of Contents>)
+
 - Legend Display
   - Ships that have not been hit on the players board are displayed as a "@"
   - Ships that have been hit on both the players and computers boards are displayed as a "X"
@@ -66,4 +70,6 @@ The live link can be found here - [Battleships](Enter game link here)
 
 ![Players board during game](Insert players board image here during gameplay)
 ![Computers board during game](Insert computers board image here during gameplay)
+
+[Back to top](<#Table of Contents>)
 
