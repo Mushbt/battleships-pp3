@@ -24,6 +24,16 @@ board_coordinates = {
 
 # Game introduction
 def intro():
+    print("""
+  ____        _   _   _           _     _           
+ |  _ \      | | | | | |         | |   (_)
+ | |_) | __ _| |_| |_| | ___  ___| |__  _ _ __  ___ 
+ |  _ < / _` | __| __| |/ _ \/ __| '_ \| | '_ \/ __|
+ | |_) | (_| | |_| |_| |  __/\__ \ | | | | |_) \__ |
+ |____/ \__,_|\__|\__|_|\___||___/_| |_|_| .__/|___/
+                                         | |
+                                         |_|
+""")
     print("Welcome to battleships!\n")
     print("Battleships is a strategy type guessing game\n")
     print("It is played on a ruled grid (In this case 8x8)\n")
@@ -61,6 +71,7 @@ def print_board(board):
     for row in board:
         row_str = "%d|%s|" % (row_num, "|".join(row))
 
+        # Hide the ship positions on computers board
         if board is C_BOARD:
             row_str = row_str.replace('@', ' ')
 
