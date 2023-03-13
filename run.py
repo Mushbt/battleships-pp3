@@ -98,7 +98,6 @@ def print_board(board):
     The print board function prints out the game board
     """
     print(' A B C D E F G H')
-    print(' ***************')
     row_num = 1
     for row in board:
         row_str = "%d|%s|" % (row_num, "|".join(row))
