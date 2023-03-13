@@ -58,6 +58,7 @@ def intro():
                                          |_|
 \u001b[0m
 """)
+
     print_slow("Welcome to battleships!\n")
     print_slow("Battleships is a strategy type guessing game\n")
     print_slow("It is played on a ruled grid (In this case 8x8)\n")
@@ -70,7 +71,7 @@ eachothers ships\n")
 computers ships\n")
     print_slow("When this has been achieved by either you or the computer, \
 the game will be over\n")
-    time.sleep(5)
+    time.sleep(3)
     # Ships and sizes
     print_slow("You will have the following ships in your fleet:\n")
     print_slow("\u001B[32mDESTROYER \u001B[0m- 2 BOARD POSITIONS\n")
@@ -78,13 +79,13 @@ the game will be over\n")
     print_slow("\u001B[34mCRUISER \u001B[0m- 3 BOARD POSITIONS\n")
     print_slow("\u001B[35mBATTLESHIP \u001B[0m- 4 BOARD POSITIONS\n")
     print_slow("\u001B[31mCARRIER \u001B[0m- 5 BOARD POSITIONS\n")
-    time.sleep(5)
+    time.sleep(3)
     # Game legend
     print_slow("The following is the game legend:\n")
     print_slow("\u001B[34m@ \u001B[0m- SHIP\n")
     print_slow("\u001B[31mO \u001B[0m- MISSED TARGET\n")
     print_slow("\u001B[32mX \u001B[0m- HIT TARGET\n")
-    time.sleep(5)
+    time.sleep(3)
 
 
 def print_board(board):
