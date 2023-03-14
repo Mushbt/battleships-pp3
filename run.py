@@ -314,8 +314,6 @@ def play_again():
             print(' ')
             print_slow("Goodbye! See you next time!\n")
             print(' ')
-            return False
-            intro()
         else:
             print(' ')
             print_slow("Please enter Y or N\n")
