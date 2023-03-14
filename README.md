@@ -47,15 +47,15 @@ The live link can be found here - [Battleships](https://battleshipspp3.herokuapp
   - User will also get information on all the ship sizes and names that will be used in the game.
   - User will also get a game legend which tells them what the symbols in the game will be.
 
-![Battleships logo](Insert logo image here)
+![Battleships logo](assets/images/battleships_logo.png)
 
-![Welcome message](Insert welcome message image here)
+![Welcome message](assets/images/battleships_welcome.png)
 
-![Battleships instructions and how to play](Insert instructions image here)
+![Battleships instructions and how to play](assets/images/battleships_instructions.png)
 
-![Ship sizes and names](Insert ship info image here)
+![Ship sizes and names](assets/images/battleships_ships.png)
 
-![Legend](Insert Legend image here)
+![Legend](assets/images/battleships_legend.png)
 
 [Back to top](<#Table of Contents>)
 
