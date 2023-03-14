@@ -13,7 +13,7 @@ Once the player or the computer sink the opponents ships, the game will end.
 
 The live link can be found here - [Battleships](https://battleshipspp3.herokuapp.com/)
 
-![readme hero image](add hero image here)
+![readme hero image]()
 
 # Table of Contents
 
