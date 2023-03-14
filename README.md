@@ -126,3 +126,18 @@ UX for the player.
 - At the end of the game, if the player has won, the feedback given is in green and if the player loses feedback will be in red, which as before during the game I felt it would be the colors attributed with such outcomes.
 
 [Back to top](<#Table of Contents>)
+
+# Technologies
+* Languages
+  - Python - Provides the functionality for the application
+
+* Frameworks & Software
+  - Github - Used to host and edit the application
+  - Gitbash - Terminal in Gitpod used to push changes to the Github Repository.
+  - Heroku - A cloud platform that the application is deployed to.
+
+* Python Packages
+  - Sys - This module provides access to some variables used or maintained by the interpreter and to functions that interact strongly with the interpreter. It is always available. ([https://docs.python.org/3/library/sys.html#:~:text=This%20module%20provides%20access%20to,It%20is%20always%20available.])
+  - Time - A module that provides various time-related functions.
+
+[Back to top](<#Table of Contents>)
