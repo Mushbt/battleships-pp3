@@ -104,14 +104,40 @@ The live link can be found here - [Battleships](https://battleshipspp3.herokuapp
   also get feedback telling them if the computer has hit or missed their ship.
   - Player will also get feedback once the game has ended. The feedback will be telling the player they have either one or lost.
 
+- Y-axis request
+
 ![Y axis request](insert image here of y axis request)
+
+- Y-axis feedback
+
 ![Y axis feedback](insert image here of y axis feedback if incorrect)
+
+- X-axis request
+
 ![X axis request](insert image here of x axis request)
+
+- X-axis feedback
+
 ![X axis feedback](insert image here of x axis feedback if incorrect)
+
+- Player hitting ship
+
 ![Player hit image](insert player hit image here)
+
+- Player missing ship
+
 ![Player miss image](insert player miss image here)
+
+- Computer hitting ship
+
 ![Computer hit image](insert computer hit image here)
+
+- Computer missing ship
+
 ![computer miss image](insert computer miss image here)
+
+- Game over
+
 ![Game end image](insert game end image here)
 
 [Back to top](<#Table of Contents>)
