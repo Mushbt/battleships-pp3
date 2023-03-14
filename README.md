@@ -176,3 +176,18 @@ UX for the player.
     - Once you have decided how you want the deploys to be, press on the deploy branch below. Heroku will now build the app for you. Once it has been completed, a 'Your App Was Successfully Deployed' message will appear with a link the live site.
 
 [Back to top](<#Table of Contents>)
+
+# Credits
+- Inspiration for my battleships game came from [Copyassignment](https://copyassignment.com/battleship-game-code-in-python/)
+- GitHub template came from [Code Institute](https://codeinstitute.net)
+- Colors used in my repository came from [Gist][gist.github.com/minism/1590432]
+- I was able to solve some of the bugs I encountered by searching on [Stack OverFlow](https://stackoverflow.com/)
+- The tutors at [Code Institute](https://codeinstitute.net) for always being there when ever I was stuck. A special thank you to Rebecca for being patient and really taking her time to help me find where my code was breaking!
+- The [Slack Community](https://slack.com) for also helping me resolve bugs and for testing my app throughout!
+- My mentor [Precious Ijege](https://www.linkedin.com/in/precious-ijege-908a00168/) for giving me great feedback on how to improve my game!
+
+[Back to top](<#Table of Contents>)
+
+This game was done as part of my project piece for my Full Stack Software Development Diploma at the [Code Institute](https://codeinstitute.net).
+Mustafa Habet 2023
+
