@@ -11,7 +11,7 @@ Players will play against the computer, and the game aim is to guess where the c
 Players will choose where to place their ships whilst the computers ships will be located randomly. Players will get to choose if they want their ships positioned Horizontally or Vertically. They will then decide where to place their ships using coordinates on the side of the board.
 Once the player or the computer sink the opponents ships, the game will end.
 
-The live link can be found here - [Battleships](Enter game link here)
+The live link can be found here - [Battleships](https://battleshipspp3.herokuapp.com/)
 
 ![readme hero image](add hero image here)
 
