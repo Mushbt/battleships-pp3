@@ -157,3 +157,11 @@ UX for the player.
 ![PEP8 Validator after errors are fixed](Insert image here)
 
 [Back to top](<#Table of Contents>)
+
+# Deployment
+* The app was deployed via Heroku and the live link can be found here [Battleships Game](insert link here)
+  - To deploy the project through Heroku, the following steps were taken:
+    - Sign up / Log in to [Heroku](https://www.heroku.com/)
+    - From the main Heroku Dashboard, press the 'New' button and then press on the 'Create New App' button.
+    - Give the project a name (Needs to be a unique name) and then select the region that is suitable to you. After this is done, press on the 'Create App' button.
+    - 
