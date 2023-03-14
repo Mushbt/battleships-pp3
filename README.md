@@ -15,16 +15,19 @@ The live link can be found here - [Battleships](Enter game link here)
 
 ![readme hero image](add hero image here)
 
-## Table of Contents
+# Table of Contents
+
 * [How to Play](#How-To-Play)
 * [Features](#Features)
- * [Existing Features](#Existing-Features)
- * [Future Features](#Future-Features)
+  * [Existing Features](#Existing-Features)
+  * [Future Features](#Future-Features)
 * [Design](#Design)
 * [Technologies](#Technologies)
 * [Testing](#Testing)
+  * [PEP8 Validation](#pep8-validation)
+  * [Bugs](#bugs)
 * [Deployment](#Deployment)
-* [Credits And Acknowledgements](#credits-and-acknowledgements)
+* [Credits](#credits)
 
 ## How To Play
 
