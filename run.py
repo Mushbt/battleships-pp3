@@ -202,17 +202,17 @@ def player_input(print_ship):
             else:
                 raise ValueError
         except ValueError:
-            print_slow("Please enter a valid number between 1-8\n")
+            print("Please enter a valid number between 1-8\n")
     while True:
         try:
             column = input("Enter the column of the ship A-H: \n").upper()
             if column not in 'ABCDEFGH':
-                print_slow("Enter a valid letter between A-H\n")
+                print("Enter a valid letter between A-H\n")
             else:
                 column = board_coordinates[column]
                 break
         except KeyError:
-            print_slow("Please enter a valid letter between A-H\n")
+            print("Please enter a valid letter between A-H\n")
     return row, column
 
 
@@ -270,15 +270,15 @@ def start_game():
     print_ship(C_BOARD)
 
     # Display the players board
-    print_slow('Player board\n')
+    print('Player board\n')
     print_board(P_BOARD)
     # Players turn
     while True:
         # Players turn
-        print_slow("Guess the ship coordinates\n")
+        print("Guess the ship coordinates\n")
 
         # Show the computers current board
-        print_slow('Computers board\n')
+        print('Computers board\n')
         print_board(C_BOARD)
         # Carry out the players turn, targeting the computers board
         p_c_turns(C_BOARD)
