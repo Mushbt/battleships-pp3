@@ -116,3 +116,13 @@ The live link can be found here - [Battleships](Enter game link here)
 
 [Back to top](<#Table of Contents>)
 
+# Design
+* When thinking about the design for this project, I had a look at various examples online and thought it would be good to keep it simple 
+seeing as it was going to be a game on a terminal which normally consists of a simple black background and white text. I did however, decide to add abit of color for better 
+UX for the player.
+- I made the battleships logo at the beginning red which I thought was a subtle color that went nicely with the black background.
+- Before the game has started, I have given the player information on the ships and their lengths that they will have during the game. I have colored the ship names in different colors, this was to differentiate between the different ships and I felt makes it easier for player to see the differences.
+- During the game, the player gets feedback on if they have hit or missed any ships aswell as feedback if their ships have been hit or missed. If the player hits a ship, the feedback will be in green which is normally attributed to something positive or a go sign. If the players ships have been hit, the feedback will be in red which is normally attributed to something bad or danger. The feedback for hitting empty waters for both the player and computer, I have chosen the color blue which is the color of the ocean.
+- At the end of the game, if the player has won, the feedback given is in green and if the player loses feedback will be in red, which as before during the game I felt it would be the colors attributed with such outcomes.
+
+[Back to top](<#Table of Contents>)
