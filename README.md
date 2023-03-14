@@ -83,8 +83,14 @@ The live link can be found here - [Battleships](https://battleshipspp3.herokuapp
   - Ships that have been hit on both the players and computers boards are displayed as a "X"
   - Missed hits are displayed as a "O" on both the players and computers board
 
-![Players board during game](Insert players board image here during gameplay)
-![Computers board during game](Insert computers board image here during gameplay)
+
+- Players board ingame
+
+![Players board during game](assets/images/player_board_ingame.png)
+
+- Computers board ingame
+
+![Computers board during game](assets/images/computers_board_ingame.png)
 
 [Back to top](<#Table of Contents>)
 
