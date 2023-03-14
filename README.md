@@ -143,6 +143,7 @@ UX for the player.
 [Back to top](<#Table of Contents>)
 
 # Testing
-  - Testing and debugging has been performed throughout the building phase via the gitpod terminal. Proof of this is within the commits.
+  - Testing and debugging has been performed throughout the building phase via the gitpod terminal.
   - Tested in the gitpod terminal and CI Heroku terminal.
   - Testing has also been done by myself, my friends, my family and within the Slack Community. There is no known issues that cause the application to crash.
+  

@@ -46,6 +46,10 @@ def print_slow(str):
 
 # Game introduction
 def intro():
+    """
+    This is the game introduction. Game logo, instructions and legend
+    will all be printed at the beginning of the game
+    """
     print_fast("""\
     \u001B[31m
   ____        _   _   _           _     _
