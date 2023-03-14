@@ -24,21 +24,21 @@ board_coordinates = {
 }
 
 
-def print_fast(str):
+def print_fast(ltr):
     """
     Creates a fast typing effect
     """
-    for letter in str:
+    for letter in ltr:
         sys.stdout.write(letter)
         sys.stdout.flush()
         time.sleep(0.05)
 
 
-def print_slow(str):
+def print_slow(ltr):
     """
     Creates a slow typing effect
     """
-    for letter in str:
+    for letter in ltr:
         sys.stdout.write(letter)
         sys.stdout.flush()
         time.sleep(0.1)
