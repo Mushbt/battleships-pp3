@@ -284,7 +284,8 @@ def start_game():
         p_c_turns(C_BOARD)
 
         if hit_count(C_BOARD) == 17:
-            print_slow("\u001B[32mYou sunk all their ships! You win!\n\u001B[0m")
+            print_slow("\u001B[32mYou sunk all their ships! You win!\
+                \n\u001B[0m")
             break
 
         # Computers turn
@@ -295,7 +296,8 @@ def start_game():
         print_board(P_BOARD)
 
         if hit_count(P_BOARD) == 17:
-            print_slow("\u001B[31mThey have sunk all your ships! You lose\n\u001B[0m")
+            print_slow("\u001B[31mThey have sunk all your ships! \
+                You lose\n\u001B[0m")
             break
 
 
