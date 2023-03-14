@@ -156,6 +156,17 @@ UX for the player.
 ![PEP8 Validator errors](insert image here)
 ![PEP8 Validator after errors are fixed](Insert image here)
 
+# Bugs
+## Resolved
+  - The game would end directly after the player has taken their first turn. This was resolved by reindenting my code underneath a while loop and then adding an if condition.
+  - There was an issue with the ships printing on both boards. The ships were printing on the computers board which should not happen and the ships on the players board were appearing after the computer has taken its first turn. This was fixed by reindenting my code underneath a while loop.
+  - During the game, when trying to hit computers ships, it always showed I did not hit any ships at all but then all of a sudden I have sunk all the computers ships and won.
+  This was fixed by adding a print ship function to the computers board. This led to another issue of the ships on the computers board being visible. I then had to edit my code within the print board function so that '@'(Ships) would be replaced with ' ' which led to all ships on the computer board being hidden.
+  - The player was targeting their own board. This was fixed by redoing my start game function and going through each step at a time while putting the code in the order the game should be played out. Code was also reindented underneath a while loop.
+
+## Unresolved
+  - There are no known unresolved bugs to mention.
+
 [Back to top](<#Table of Contents>)
 
 # Deployment
