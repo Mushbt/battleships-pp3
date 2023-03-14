@@ -147,3 +147,13 @@ UX for the player.
   - Tested in the gitpod terminal and CI Heroku terminal.
   - Testing has also been done by myself, my friends, my family and within the Slack Community. There are no known issues that cause the application to crash.
 
+# PEP8 Validation
+  - Code was run though the Code Institute PEP8 Validator and below are the screenshots of the results.
+  - Most of the errors were trailing white lines or 1 blank line rather than 2 under functions. These were all resolved.
+  - The remaining errors are because of the logo and do not cause the code to break.
+
+![PEP8 Validator errors](insert image here)
+![PEP8 Validator errors](insert image here)
+![PEP8 Validator after errors are fixed](Insert image here)
+
+[Back to top](<#Table of Contents>)
