@@ -29,7 +29,7 @@ The live link can be found here - [Battleships](Enter game link here)
 * [Deployment](#Deployment)
 * [Credits](#credits)
 
-## How To Play
+# How To Play
 
 - 5 ships will be placed on each board automatically.
 - When all ships have been placed, the game will begin.
@@ -38,8 +38,8 @@ The live link can be found here - [Battleships](Enter game link here)
 
 [Back to top](<#Table of Contents>)
 
-## Features
-# Existing Features
+# Features
+## Existing Features
 - The Introduction
   - When a new game is started, a Battleships logo is printed.
   - After the logo is printed, a simple welcome message which reads "Welcome to Battleships!" follows.
@@ -110,7 +110,7 @@ The live link can be found here - [Battleships](Enter game link here)
 
 [Back to top](<#Table of Contents>)
 
-# Future Features
+## Future Features
 - In the future, I would like to add the following features
   - Add a username input which would ask the player to create a username for the game
   - Add a highscore table which would go hand in hand witht he username input feature. The scoreboard can be used for how many hits it took to win the game.
@@ -151,7 +151,7 @@ UX for the player.
   - Tested in the gitpod terminal and CI Heroku terminal.
   - Testing has also been done by myself, my friends, my family and within the Slack Community. There are no known issues that cause the application to crash.
 
-# PEP8 Validation
+## PEP8 Validation
   - Code was run though the Code Institute PEP8 Validator and below are the screenshots of the results.
   - Most of the errors were trailing white lines or 1 blank line rather than 2 under functions. These were all resolved.
   - The remaining errors are because of the logo and do not cause the code to break.
