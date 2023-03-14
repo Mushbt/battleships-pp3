@@ -13,7 +13,7 @@ Once the player or the computer sink the opponents ships, the game will end.
 
 The live link can be found here - [Battleships](https://battleshipspp3.herokuapp.com/)
 
-![readme hero image]()
+![readme hero image](assets/images/hero_image.png)
 
 # Table of Contents
 
@@ -48,9 +48,13 @@ The live link can be found here - [Battleships](https://battleshipspp3.herokuapp
   - User will also get a game legend which tells them what the symbols in the game will be.
 
 ![Battleships logo](Insert logo image here)
+
 ![Welcome message](Insert welcome message image here)
+
 ![Battleships instructions and how to play](Insert instructions image here)
+
 ![Ship sizes and names](Insert ship info image here)
+
 ![Legend](Insert Legend image here)
 
 [Back to top](<#Table of Contents>)
