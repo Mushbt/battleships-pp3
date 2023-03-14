@@ -67,12 +67,14 @@ The live link can be found here - [Battleships](https://battleshipspp3.herokuapp
 - Players board
   - The players board will have letters and numbers on the x and y axis respectively. These will be the game coordinates for the game.
   - The players ships will be visible. Ships have been randomly placed.
+
+![Players board](assets/images/battleships_player_board.png)
+
 - Computers board
   - The computers board will have letter and numbers on the x and y axis respectively. There will be the game coordinates for the game.
   - The computers ships will not be visible. Reason for this is because the player will need to guess where the ships are located. Ships have been randomly placed.
 
-![Players board](Insert players board image here)
-![Computers board](Insert computers board image here)
+![Computers board](assets/images/battleships_computer_board.png)
 
 [Back to top](<#Table of Contents>)
 
