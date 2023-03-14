@@ -42,20 +42,25 @@ The live link can be found here - [Battleships](https://battleshipspp3.herokuapp
 ## Existing Features
 - The Introduction
   - When a new game is started, a Battleships logo is printed.
+  
+  ![Battleships logo](assets/images/battleships_logo.png)
+  
   - After the logo is printed, a simple welcome message which reads "Welcome to Battleships!" follows.
+  
+  ![Welcome message](assets/images/battleships_welcome.png)
+  
   - User will also get information on what the Battleships game is and instructions on how to play.
+  
+  ![Battleships instructions and how to play](assets/images/battleships_instructions.png)
+  
   - User will also get information on all the ship sizes and names that will be used in the game.
+  
+  ![Ship sizes and names](assets/images/battleships_ships.png)
+  
   - User will also get a game legend which tells them what the symbols in the game will be.
+  
+  ![Legend](assets/images/battleships_legend.png)
 
-![Battleships logo](assets/images/battleships_logo.png)
-
-![Welcome message](assets/images/battleships_welcome.png)
-
-![Battleships instructions and how to play](assets/images/battleships_instructions.png)
-
-![Ship sizes and names](assets/images/battleships_ships.png)
-
-![Legend](assets/images/battleships_legend.png)
 
 [Back to top](<#Table of Contents>)
 
