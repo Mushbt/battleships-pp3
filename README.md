@@ -7,6 +7,7 @@ Players will play against the computer, and the game aim is to guess where the c
 - Cruiser (Takes up 3 board positions)
 - Battleship (Takes up 4 board positions)
 - Carrier (Takes up 5 board positions)
+
 Players will choose where to place their ships whilst the computers ships will be located randomly. Players will get to choose if they want their ships positioned Horizontally or Vertically. They will then decide where to place their ships using coordinates on the side of the board.
 Once the player or the computer sink the opponents ships, the game will end.
 
