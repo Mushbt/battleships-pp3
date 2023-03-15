@@ -126,7 +126,7 @@ The live link can be found here - [Battleships](https://battleshipspp3.herokuapp
 
 - Player missing ship
 
-![Player miss image](assets/images/)
+![Player miss image](assets/images/player_miss.png)
 
 - Computer hitting ship
 
@@ -134,7 +134,7 @@ The live link can be found here - [Battleships](https://battleshipspp3.herokuapp
 
 - Computer missing ship
 
-![computer miss image](insert computer miss image here)
+![computer miss image](assets/images/computer_miss.png)
 
 - Game over
 
