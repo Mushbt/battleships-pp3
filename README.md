@@ -140,7 +140,7 @@ Players and the computer will have 5 ships each which consists of the following:
 
 - Play again
   - When the player or the computer has sunk the opponents ship, the game will end.
-  - Once game has ended, the player will be asked if they want to play again. Player will need to input Y for yes or N for no.
+  - Once game has ended, the player will be asked if they want to play again. The player will need to input Y for yes or N for no.
   - If the player decides to play again, the game will reload from the begining.
   - If the player decides against playing again, they will get a goodbye message.
 
@@ -170,8 +170,11 @@ seeing as it was going to be a game on a terminal which normally consists of a s
 UX for the player.
 - I made the battleships logo at the beginning red which I thought was a subtle color that went nicely with the black background.
 - Before the game has started, I have given the player information on the ships and their lengths that they will have during the game. I have colored the ship names in different colors, this was to differentiate between the different ships and I felt makes it easier for player to see the differences.
-- During the game, the player gets feedback on if they have hit or missed any ships aswell as feedback if their ships have been hit or missed. If the player hits a ship, the feedback will be in green which is normally attributed to something positive or a go sign. If the players ships have been hit, the feedback will be in red which is normally attributed to something bad or danger. The feedback for hitting empty waters for both the player and computer, I have chosen the color blue which is the color of the ocean.
-- At the end of the game, if the player has won, the feedback given is in green and if the player loses feedback will be in red, which as before during the game I felt it would be the colors attributed with such outcomes.
+- During the game, the player gets feedback on if they have hit or missed any ships aswell as feedback if their ships have been hit or missed. 
+- When the player hits a ship, they will receive feedback in green. Reason for this is that this color is often associated with positive outcomes or a "go" signal.
+- If the player's ships have been hit, they will receive feedback in red. Reason for this is that this color is often associated with danger or negative outcomes.
+- The feedback for hitting empty waters for both the player and computer will be the color blue which is the color of the ocean.
+- At the end of the game, if the player has won, the feedback given is in green and if the player loses, the feedback will be in red.
 
 [Back to top](<#Table of Contents>)
 
