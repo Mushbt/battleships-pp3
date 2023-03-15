@@ -1,7 +1,8 @@
 # Battleships
 
-Battleships is a Python terminal game which runs on Heroku. It is based on the popular strategy type guessing game [Battleships](https://en.wikipedia.org/wiki/Battleship_(game)).
-Players will play against the computer, and the aim of the game is to guess where the computer has placed its ships on the 8x8 board/grid and try and sink them. The computer will also be trying to do the same. 
+Battleships is a Python terminal game which is hosted on Heroku. It is based on the popular strategy type guessing game [Battleships](https://en.wikipedia.org/wiki/Battleship_(game)).
+
+In this classic strategy game, players will go head-to-head against the computer, attempting to outmaneuver and outshoot each other to sink the opposing fleet. The game is clear: guess the locations of the computer's ships on the board before the computer can do the same to the player.
 
 
 The live link can be found here - [Battleships](https://battleshipspp3.herokuapp.com/)
@@ -52,11 +53,11 @@ Players and the computer will have 5 ships each which consists of the following:
   
   ![Battleships instructions and how to play](assets/images/battleships_instructions.png)
   
-  - User will also get information on all the ship sizes and names that will be used in the game.
+  - User will get information on all the ship sizes and names that will be used in the game.
   
   ![Ship sizes and names](assets/images/battleships_ships.png)
   
-  - User will also get a game legend which tells them what the symbols in the game will be.
+  - User will also get a game legend which tells them the meaning behind the Characters used on the board.
   
   ![Legend](assets/images/battleships_legend.png)
 
