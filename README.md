@@ -152,7 +152,7 @@ The live link can be found here - [Battleships](https://battleshipspp3.herokuapp
 ![Play again image](assets/images/play_again.png)
 
 - Goodbye
-![goodbye message](assets/images/)
+![goodbye message](assets/images/goodbye.png)
 
 [Back to top](<#Table of Contents>)
 
