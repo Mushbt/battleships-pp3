@@ -148,8 +148,11 @@ The live link can be found here - [Battleships](https://battleshipspp3.herokuapp
   - If the player decides to play again, the game will reload from the begining.
   - If the player decides against playing again, they will get a goodbye message.
 
-![Play again image](insert play again image here)
-![goodbye message](insert goodbye message here)
+- Play again
+![Play again image](assets/images/play_again.png)
+
+- Goodbye
+![goodbye message](assets/images/)
 
 [Back to top](<#Table of Contents>)
 
