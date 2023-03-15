@@ -106,31 +106,31 @@ The live link can be found here - [Battleships](https://battleshipspp3.herokuapp
 
 - Y-axis request
 
-![Y axis request](insert image here of y axis request)
+![Y axis request](assets/images/y_axis_request.png)
 
 - Y-axis feedback
 
-![Y axis feedback](insert image here of y axis feedback if incorrect)
+![Y axis feedback](assets/images/incorrect_y_axis.png)
 
 - X-axis request
 
-![X axis request](insert image here of x axis request)
+![X axis request](assets/images/x_axis_request.png)
 
 - X-axis feedback
 
-![X axis feedback](insert image here of x axis feedback if incorrect)
+![X axis feedback](assets/images/x_axis_incorrect.png)
 
 - Player hitting ship
 
-![Player hit image](insert player hit image here)
+![Player hit image](assets/images/hit_ship.png)
 
 - Player missing ship
 
-![Player miss image](insert player miss image here)
+![Player miss image](assets/images/)
 
 - Computer hitting ship
 
-![Computer hit image](insert computer hit image here)
+![Computer hit image](assets/images/they_hit_ship.png)
 
 - Computer missing ship
 
@@ -138,7 +138,7 @@ The live link can be found here - [Battleships](https://battleshipspp3.herokuapp
 
 - Game over
 
-![Game end image](insert game end image here)
+![Game end image](assets/images/you_win.png)
 
 [Back to top](<#Table of Contents>)
 
