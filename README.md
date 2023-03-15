@@ -24,13 +24,12 @@ The live link can be found here - [Battleships](https://battleshipspp3.herokuapp
 * [Credits](#credits)
 
 # How To Play
-Players and the computer will have 5 ships each which consists of the following:
-- Destroyer (Takes up 2 board positions)
-- Submarine (Takes up 3 board positions)
-- Cruiser (Takes up 3 board positions)
-- Battleship (Takes up 4 board positions)
-- Carrier (Takes up 5 board positions)
-
+* Players and the computer will have 5 ships each which consists of the following:
+  * Destroyer (Takes up 2 board positions)
+  * Submarine (Takes up 3 board positions)
+  * Cruiser (Takes up 3 board positions)
+  * Battleship (Takes up 4 board positions)
+  * Carrier (Takes up 5 board positions)
 - 5 ships will be placed on each board automatically.
 - When all ships have been placed, the game will begin.
 - The player must try and guess where the computers ships are located using coordinates.
