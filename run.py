@@ -80,7 +80,7 @@ def intro():
         else:
             print(' ')
             print_slow("Please enter Y or N\n")
-            answer = input("Enter Y or N \n").upper
+            answer = input("").upper()
 
 
 def instructions():
