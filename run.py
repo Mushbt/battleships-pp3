@@ -69,6 +69,25 @@ def intro():
     print_slow("Welcome to battleships!\n")
     time.sleep(1)
     print(' ')
+    print_slow("Is this you first time playing the battleships game?\n")
+    answer = input("Enter Y or N\n").upper()
+    print(' ')
+    while True:
+        if answer == "N":
+            start_game()
+        elif answer == "Y":
+            instructions()
+        else:
+            print(' ')
+            print_slow("Please enter Y or N\n")
+            answer = input("Enter Y or N \n").upper
+
+
+def instructions():
+    """
+    Game instructions will print if player
+    has not played the game before.
+    """
     print_slow("Battleships is a strategy type guessing game\n")
     print_slow("It is played on a ruled grid (In this case 8x8)\n")
     print_slow("You and the computer will have 5 ships each with different \
