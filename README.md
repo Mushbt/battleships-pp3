@@ -96,13 +96,9 @@ Players and the computer will have 5 ships each which consists of the following:
 
 - Player feedback
   - Feedback is constantly displayed to the player during the game
-  - The player is requested to input coordinates whenever they have their turn. They are asked for the y axis first, which are numbers.
-  If they do not input a number between 1 and 8, they get asked to input a valid number between 1 and 8. Once done right, they are asked to input coordinates
-  for the x axis which are letters. If they do not input a letter between A and H, they are asked to input a valid letter between A and H. The player takes their turn once
-  the coordinates are input correctly. The computer takes its turn directly after.
-  - Once the player and computer have taken their turns, feedback is given to the player. The feedback is telling the player if they hit or missed the computers ship. They
-  also get feedback telling them if the computer has hit or missed their ship.
-  - Player will also get feedback once the game has ended. The feedback will be telling the player they have either one or lost.
+  - The player must enter coordinates during their turn. They enter the y-axis first, which should be a number between 1 and 8. If they enter an invalid number, they are prompted to enter a valid one. Once the y-axis coordinate is correct, they enter the x-axis coordinate which should be a letter between A and H. If they enter an invalid letter, they are prompted to enter a valid one. After entering the correct coordinates, the player takes their turn and the computer takes its turn immediately after.
+  - Once the player and computer have taken their turns, the player receives feedback. The feedback indicates whether they hit or missed the computer's ship and also whether the computer hit or missed their ship.
+  - After the game is over, the player receives feedback about the outcome. They are told whether they won or lost.
 
 - Y-axis request
 
