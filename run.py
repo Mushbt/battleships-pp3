@@ -10,8 +10,6 @@ P_BOARD = [[" "] * 8 for i in range(8)]
 # Computer game board
 C_BOARD = [[" "] * 8 for i in range(8)]
 
-count = 0
-
 # Ship lengths of all ships on board
 SHIP_LENGTHS = [2, 3, 3, 4, 5]
 
@@ -223,7 +221,7 @@ def hit_count(board):
     The hit count function will count the number of hits the player
     and computer has taken
     """
-    global count
+    count = 0
     for row in board:
         for column in row:
             if column == "X":
@@ -310,8 +308,6 @@ def play_again():
     """
     global P_BOARD
     global C_BOARD
-    global count
-    count = 0
     P_BOARD = [[" "] * 8 for i in range(8)]
     C_BOARD = [[" "] * 8 for i in range(8)]
     print_slow("Would you like to play again?\n")
