@@ -117,6 +117,7 @@ the game will be over\n")
     print_slow("X - HIT TARGET\n")
     time.sleep(3)
     print(' ')
+    start_game()
 
 
 def print_board(board):
