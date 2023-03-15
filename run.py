@@ -308,12 +308,18 @@ def play_again():
     The play again function will ask the player
     if they want to play again after the game has ended
     """
+    global P_BOARD
+    global C_BOARD
+    global count
+    count = 0
+    P_BOARD = [[" "] * 8 for i in range(8)]
+    C_BOARD = [[" "] * 8 for i in range(8)]
     print_slow("Would you like to play again?\n")
     answer = input("Enter Y or N \n").upper()
     print(' ')
     while True:
         if answer == "Y":
-            intro()
+            start_game()
         elif answer == "N":
             print(' ')
             print_slow("Goodbye! See you next time!\n")
@@ -328,4 +334,3 @@ def play_again():
 if __name__ == "__main__":
     intro()
     start_game()
-    play_again()
