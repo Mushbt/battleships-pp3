@@ -51,7 +51,7 @@ The live link can be found here - [Battleships](https://battleshipspp3.herokuapp
 
   - Player will then be asked if they have played the game before. If they have, the game instructions will be skipped and they will be taken directly to the game.
 
-  ![Played before question]
+  ![Played before question](assets/images/played_before.png)
   
   - If the player has not played the game before, they will get the game instructions.
   
