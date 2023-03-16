@@ -263,7 +263,7 @@ UX.
 # Credits
 - Inspiration for my battleships game came from [Copyassignment](https://copyassignment.com/battleship-game-code-in-python/)
 - GitHub template came from [Code Institute](https://codeinstitute.net)
-- Colors used in my repository came from [Gist][gist.github.com/minism/1590432]
+- Colors used in my repository came from [Gist](gist.github.com/minism/1590432)
 - I was able to solve some of the bugs I encountered by searching on [Stack OverFlow](https://stackoverflow.com/)
 - The tutors at [Code Institute](https://codeinstitute.net) for always being there when ever I was stuck. A special thank you to Rebecca and Sarah for being patient and really taking their time to help me find where my code was breaking!
 - The [Slack Community](https://slack.com) for also helping me resolve bugs and for testing my app throughout!
