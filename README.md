@@ -64,13 +64,13 @@ The live link can be found here - [Battleships](https://battleshipspp3.herokuapp
 [Back to top](<#Table of Contents>)
 
 - Players board
-  - The players board will have letters and numbers on the x and y axis respectively. These will be the game coordinates for the game.
+  - The players board will have letters and numbers on the x and y axis respectively. These will be the game coordinates.
   - The players ships will be visible. Ships have been randomly placed.
 
 ![Players board](assets/images/battleships_player_board.png)
 
 - Computers board
-  - The computers board will have letter and numbers on the x and y axis respectively. There will be the game coordinates for the game.
+  - The computers board will have letter and numbers on the x and y axis respectively. These will be the game coordinates for the game.
   - The computers ships will not be visible. Reason for this is because the player will need to guess where the ships are located. Ships have been randomly placed.
 
 ![Computers board](assets/images/battleships_computer_board.png)
@@ -140,7 +140,7 @@ The live link can be found here - [Battleships](https://battleshipspp3.herokuapp
 - Play again
   - When the player or the computer has sunk the opponents ship, the game will end.
   - Once game has ended, the player will be asked if they want to play again. The player will need to input Y for yes or N for no.
-  - If the player decides to play again, the game will reload from the begining.
+  - If the player decides to play again, the game will reload.
   - If the player decides against playing again, they will get a goodbye message.
 
 - Play again
@@ -156,7 +156,7 @@ The live link can be found here - [Battleships](https://battleshipspp3.herokuapp
 ## Future Features
 - In the future, I would like to add the following features
   - Add a username input which would ask the player to create a username for the game
-  - Add a highscore table which would go hand in hand witht he username input feature. The scoreboard can be used for how many hits it took to win the game.
+  - Add a highscore table which would go hand in hand with the username input feature. The scoreboard can be used for how many hits it took to win the game.
   - Add difficulty levels that the player can choose from.
   - Allow the player to position their ships.
   - Allow the player to choose the size of the grid.
@@ -166,7 +166,7 @@ The live link can be found here - [Battleships](https://battleshipspp3.herokuapp
 # Design
 * When thinking about the design for this project, I had a look at various examples online and thought it would be good to keep it simple 
 seeing as it was going to be a game on a terminal which normally consists of a simple black background and white text. I did however, decide to add abit of color for better 
-UX for the player.
+UX.
 - I made the battleships logo at the beginning red which I thought was a subtle color that went nicely with the black background.
 - Before the game has started, I have given the player information on the ships and their lengths that they will have during the game. I have colored the ship names in different colors, this was to differentiate between the different ships and I felt makes it easier for player to see the differences.
 - During the game, the player gets feedback on if they have hit or missed any ships aswell as feedback if their ships have been hit or missed. 
