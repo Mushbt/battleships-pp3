@@ -17,6 +17,7 @@ The live link can be found here - [Battleships](https://battleshipspp3.herokuapp
   * [Future Features](#Future-Features)
 * [Design](#Design)
 * [Technologies](#Technologies)
+* [Data Model](#Data-Model)
 * [Testing](#Testing)
   * [PEP8 Validation](#pep8-validation)
   * [Bugs](#bugs)
