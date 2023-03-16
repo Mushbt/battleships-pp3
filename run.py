@@ -50,8 +50,9 @@ def print_slow(ltr):
 # Game introduction
 def intro():
     """
-    This is the game introduction. Game logo, instructions and legend
-    will all be printed at the beginning of the game
+    This is the game introduction. Game logo, and welcome
+    message will print which is followed by a question
+    of if the player has played this game before
     """
     print_fast("""\
     \u001B[31m
