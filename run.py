@@ -70,13 +70,13 @@ def intro():
     print_slow("Welcome to battleships!\n")
     time.sleep(1)
     print(' ')
-    print_slow("Is this you first time playing the battleships game?\n")
+    print_slow("Have you played battleships before?\n")
     answer = input("Enter Y or N\n").upper()
     print(' ')
     while True:
-        if answer == "N":
+        if answer == "Y":
             start_game()
-        elif answer == "Y":
+        elif answer == "N":
             instructions()
         else:
             print(' ')
