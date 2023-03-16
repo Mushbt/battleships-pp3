@@ -48,16 +48,20 @@ The live link can be found here - [Battleships](https://battleshipspp3.herokuapp
   - After the logo is printed, a simple welcome message which reads "Welcome to Battleships!" follows.
   
   ![Welcome message](assets/images/battleships_welcome.png)
+
+  - Player will then be asked if they have played the game before. If they have, the game instructions will be skipped and they will be taken directly to the game.
+
+  ![Played before question]
   
-  - User will also get information on what the Battleships game is and instructions on how to play.
+  - If the player has not played the game before, they will get the game instructions.
   
   ![Battleships instructions and how to play](assets/images/battleships_instructions.png)
   
-  - User will get information on all the ship sizes and names that will be used in the game.
+  - Player will get information on all the ship sizes and names that will be used in the game.
   
   ![Ship sizes and names](assets/images/battleships_ships.png)
   
-  - User will also get a game legend which tells them the meaning behind the Characters used on the board.
+  - Player will also get a game legend which tells them the meaning behind the characters used on the board.
   
   ![Legend](assets/images/battleships_legend.png)
 
