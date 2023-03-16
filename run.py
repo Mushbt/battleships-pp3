@@ -97,7 +97,7 @@ sizes\n")
     print_slow("You will take turns calling coordinates trying to sink \
 eachothers ships\n")
     print_slow("The objective of the game is to try and sink all the \
-computers ships\n")
+computers ships before your ships have been sunk\n")
     print_slow("When this has been achieved by either you or the computer, \
 the game will be over\n")
     time.sleep(3)
@@ -117,6 +117,8 @@ the game will be over\n")
     print_slow("O - MISSED TARGET\n")
     print_slow("X - HIT TARGET\n")
     time.sleep(3)
+    print_slow("Good luck!")
+    time.sleep(1)
     print(' ')
     start_game()
 
